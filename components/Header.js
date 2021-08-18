@@ -11,8 +11,8 @@ import {
 import HeaderItem from './HeaderItem';
 const Header = () => {
 	return (
-		<header className='flex flex-col sm:flex-row mx-4 mt-3 justify-between items-center h-auto'>
-			<div className='flex flex-grow max-w-2xl justify-evenly '>
+		<header className='text-base flex flex-col sm:flex-row mx-4 mt-3 justify-between items-center h-auto'>
+			<div className='flex flex-grow max-w-2xl justify-evenly pt-2'>
 				<HeaderItem title='HOME' Icon={HomeIcon} />
 				<HeaderItem title='TRENDING' Icon={LightningBoltIcon} />
 				<HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} />
@@ -23,8 +23,8 @@ const Header = () => {
 			<Image
 				className='object-contain'
 				src='https://links.papareact.com/ua6'
-				width={150}
-				height={80}
+				width={130}
+				height={70}
 			/>
 		</header>
 	);
